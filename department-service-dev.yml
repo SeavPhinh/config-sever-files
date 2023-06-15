@@ -9,5 +9,7 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+token:
+  secret: '{cipher}5b8599d6556a284bdf8a9ee2637024c60894078bae7b38f77712766e9e09c8d2'
 server:
   port: 8081
